@@ -1,4 +1,4 @@
-package com.java.streams;
+package com.java.programs.streams;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 
 public class FindFirstRepeatedWordInAStringList {
     public static void main(String[] args) {
+
         List<String> stringList = Arrays.asList("microservices", "java", "pcf", "java", "pcf");
         stringList.stream()
                 .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()))

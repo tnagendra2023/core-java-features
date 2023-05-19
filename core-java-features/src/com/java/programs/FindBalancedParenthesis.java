@@ -1,4 +1,4 @@
-package com.java;
+package com.java.programs;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -25,7 +25,7 @@ public class FindBalancedParenthesis {
                 continue;
             }
 
-            /* We need to make sure without opening there should be any value */
+            /* We need to make sure without opening there should not be any closed value */
             if(stack.isEmpty()){
                 return false;
             }
