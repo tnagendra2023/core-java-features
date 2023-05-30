@@ -2,7 +2,7 @@ package com.java.programs;
 
 import java.util.*;
 
-public class Journey {
+public class FindStartingOriginRoute {
     public static String findStartingPlace(List<String[]> routes) {
         Set<String> destinations = new HashSet<>();
         Set<String> origins = new HashSet<>();
