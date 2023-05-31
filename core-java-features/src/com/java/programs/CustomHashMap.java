@@ -33,7 +33,7 @@ public class CustomHashMap<K, V> {
     private final double loadFactor;
 
     public CustomHashMap() {
-        this.buckets = new List[DEFAULT_CAPACITY];
+        this.buckets = new ArrayList[DEFAULT_CAPACITY];
         this.size = 0;
         this.loadFactor = DEFAULT_LOAD_FACTOR;
     }
