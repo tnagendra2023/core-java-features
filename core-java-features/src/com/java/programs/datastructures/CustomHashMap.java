@@ -1,4 +1,4 @@
-package com.java.programs;
+package com.java.programs.datastructures;
 
 import java.util.ArrayList;
 import java.util.List;
