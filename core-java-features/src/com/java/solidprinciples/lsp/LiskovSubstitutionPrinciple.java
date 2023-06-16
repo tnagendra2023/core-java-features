@@ -1,4 +1,4 @@
-package com.java.solidprinciples;
+package com.java.solidprinciples.lsp;
 
 /**
  * The Liskov Substitution Principle (LSP) is one of the SOLID principles of object-oriented design

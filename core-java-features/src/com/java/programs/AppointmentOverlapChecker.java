@@ -2,6 +2,7 @@ package com.java.programs;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.function.Function;
 
 class Interval {
     int start;
@@ -42,12 +43,14 @@ public class AppointmentOverlapChecker {
                 new com.java.programs.Interval(8, 12),
                 new com.java.programs.Interval(4, 6)*/
 
-                new Interval(4, 5),
+                new Interval(1, 2),
                 new Interval(2, 3),
-                new Interval(3, 6)
+                new Interval(5, 7),
+                new Interval(7, 9)
         };
 
         boolean hasOverlap = hasOverlap(intervals);
         System.out.println("Appointments have overlap: " + hasOverlap);
+        Function<String,String> f= String::toUpperCase;
     }
 }

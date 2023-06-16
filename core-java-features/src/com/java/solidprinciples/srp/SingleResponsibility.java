@@ -1,4 +1,4 @@
-package com.java.solidprinciples;
+package com.java.solidprinciples.srp;
 
 public class SingleResponsibility {
     public static void main(String[] args) {

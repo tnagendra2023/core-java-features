@@ -1,4 +1,4 @@
-package com.java.solidprinciples;
+package com.java.solidprinciples.isp;
 
 public class InterfaceSegregationPrinciple {
     public static void main(String[] args) {
@@ -10,18 +10,8 @@ public class InterfaceSegregationPrinciple {
         fish.swim();
     }
 }
-interface Swimmable{
-    void swim();
-}
 
-interface Runnable{
-    void run();
-}
-interface Flyable{
-    void fly();
-}
-
-class Bird implements Flyable, Runnable{
+class Bird implements Flyable, com.java.solidprinciples.isp.Runnable {
 
     @Override
     public void run() {
@@ -34,7 +24,7 @@ class Bird implements Flyable, Runnable{
 
     }
 }
-class Fish implements Swimmable{
+class Fish implements Swimmable {
 
     @Override
     public void swim() {
